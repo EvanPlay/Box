@@ -10,7 +10,8 @@ namespace Box
             Console.WriteLine("Пожалуйста, введите число - стороны квадрата.");
             int x;
              x=Convert.ToInt32(Console.ReadLine());
-            CreateBox Square()
+            CreateBox.Square(x);
+            Console.ReadLine();
         }
     }
 }
