@@ -10,10 +10,11 @@ namespace Box
     {
         public static string Square(int a)
         {
-            for (int i = 0; i < a; i++)
-            {
-
-            }
+            if (a % 2 != 0)
+                for (int i = 0; i < a; i++)
+                {
+                    
+                }
 
 
 
