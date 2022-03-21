@@ -5,18 +5,15 @@ namespace Box
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Я программа для бла-бла-бла");
+            Console.WriteLine("Я - Руслан. Программа для вывода квадратов из нулей и единиц, где единицы есть диагонали квадрата.");
+            string chislo = Console.ReadLine();
+            Console.WriteLine("Пожалуйста, введите число - стороны квадрата.");
             int x;
-        x=Convert.ToInt32(Console.ReadLine());//Теперь программа осзазнаёт, что "х" вводит пользователь и конвертирует его в числдо единиц, требуемыхдля постраения квадрата.
-        for(x=0; i<x; x++);
-            {
-                if (i == 0 || i == x - 1);
-                {
-
-                }
-            }
+             x=Convert.ToInt32(Console.ReadLine());
+            CreateBox Square()
         }
     }
+}
 
 //    using System;
 //using System.Collections.Generic;
