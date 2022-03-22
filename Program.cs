@@ -8,7 +8,6 @@ namespace Box
 
             Console.WriteLine("Я - Руслан. Программа для вывода квадратов из нулей и единиц, где единицы есть диагонали квадрата.");
             Console.WriteLine("Пожалуйста, введите число - стороны квадрата.");
-            string chislo = Console.ReadLine();
             int x;//программа принимает введённое пользователем число
             x = Convert.ToInt32(Console.ReadLine());
             CreateBox square = new createBox;
