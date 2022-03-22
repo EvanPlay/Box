@@ -11,22 +11,8 @@ namespace Box
             string chislo = Console.ReadLine();
             int x;//программа принимает введённое пользователем число
             x = Convert.ToInt32(Console.ReadLine());
-            try
-            {
-                createBox createBox = new createBox();//через класс оно просчитывет его и выводит
-                while (true)
-                {
-                    createBox.Square(x);
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-            finally
-            {
-                Console.ReadLine();
-            }
+            CreateBox square = new createBox;
+            square.createBox();
         }
     }
 }
