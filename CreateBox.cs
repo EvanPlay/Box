@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Box
 {
-    internal class CreateBox
+    public class CreateBox
     {
         public static string Square(int a)
         {
