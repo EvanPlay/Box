@@ -1,7 +1,7 @@
 using System;
 namespace Box
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
