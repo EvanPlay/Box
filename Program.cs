@@ -15,7 +15,7 @@ namespace Box
             CreateBox square = new CreateBox();
             while (true)
             {
-            square.createBox(a);
+            CreateBox.Square(a);
             Console.WriteLine();
             Console.ReadLine();
             }
